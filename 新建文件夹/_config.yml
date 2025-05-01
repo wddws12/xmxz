@@ -1,0 +1,19 @@
+title: 我的学习资源分享
+description: 这是一个由 Jekyll 和 GitHub Pages 搭建的静态博客，用于分享学习资源和技术笔记。
+baseurl: ""
+url: "https://yourusername.github.io"
+theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-paginate
+paginate: 5
+paginate_path: "/page:num/"
+author:
+  name: 你的名字
+  email: your@email.com
+
+disqus:
+  shortname: your-disqus-shortname
+
+markdown: kramdown
